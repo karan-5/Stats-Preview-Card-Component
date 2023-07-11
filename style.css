@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Wrapper{
+    display: grid;
+    gap: 0%;
+    height: 40rem;
+    max-width: 80rem;
+    grid-template-columns: 31rem 30rem;
+    grid-template-rows: min-content;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.text-card{
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: Inter;
+    background-color: hsl(244, 38%, 16%);
+    padding-left: 3.4rem;
+    padding-top: 3rem;
+    padding-right: 7.2rem;
+    text-align: start;
+}
+span{
+    color: hsl(277, 64%, 61%);
+    font: Inter;
+    font-weight: 700;
+}
+.image-card-title{
+    font-weight: 700;
+}
+.image-card{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 1;
+}
+
+#img{
+    mix-blend-mode: multiply;
+    opacity: 0.75; 
+}
+.text-card-description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-right: 0.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 2rem;
+    margin-top: 0%;
+}
+.text-card-footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Lexend Deca;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    column-gap: 3.7rem;
+    margin-top: 0.5rem;
+}
+#footer-companies-count{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 0%;
+}
